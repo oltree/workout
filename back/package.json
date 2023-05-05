@@ -2,11 +2,11 @@
 	"name": "back",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "app.js",
 	"type": "module",
 	"scripts": {
-		"dev": "nodemon index.js",
-		"start": "node index.js"
+		"dev": "nodemon ./src/app.js",
+		"start": "node app.js"
 	},
 	"keywords": [],
 	"author": "",
@@ -20,6 +20,7 @@
 	"dependencies": {
 		"@prisma/client": "^4.13.0",
 		"argon2": "^0.30.3",
+		"cors": "^2.8.5",
 		"dotenv": "^16.0.3",
 		"express": "^4.18.2",
 		"express-async-handler": "^1.2.0",
