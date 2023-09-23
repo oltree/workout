@@ -1,7 +1,5 @@
 # Project Description
 
-## Description
-
 This App is a backend application for the Workout project.
 
 ## Technologies
